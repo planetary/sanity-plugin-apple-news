@@ -1,7 +1,7 @@
 {
-  "name": "sanity-plugin-apple-news",
+  "name": "@planetary/sanity-plugin-apple-news",
   "version": "1.0.0",
-  "description": "Generate Apple News JSON from Block Content & Portable Text",
+  "description": "Generate Apple News JSON from Sanity documents",
   "keywords": [
     "sanity",
     "sanity-plugin"
@@ -43,6 +43,7 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
+    "@portabletext/to-html": "^2.0.13",
     "@sanity/incompatible-plugin": "^1.0.4"
   },
   "devDependencies": {
@@ -51,6 +52,7 @@
     "@types/react": "^18.3.3",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
+    "@wanews/apple-news-format": "^2.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-sanity": "^7.1.2",
